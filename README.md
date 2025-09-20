@@ -3,7 +3,7 @@
 I made this chatbot in python after doing DeepLearning.ai's course on NLP, and learning about tokenisation, embeddings, cosine similarity, etc.
 It is a very simple conversational AI, that retrieves a fixed response from a pre defined knowledge base, and simply predicts the most likely one.
 
-You can try out the bot here: aqmer-chatbot.streamlit.app
+You can try out the bot here:[aqmer-chatbot.streamlit.app](https://aqmer-chatbot.streamlit.app)
 
 ---
 
