@@ -29,7 +29,7 @@ KB = [
 # chatbot
 # ----------------------------------------------------------------------
 class Chatbot:
-    def __init__(self, kb, threshold=0.45):
+    def __init__(self, kb, threshold=0.2):
         self.kb = kb
         self.threshold = threshold
         self.model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -76,7 +76,7 @@ class Chatbot:
 # main program
 # ----------------------------------------------------------------------
 if __name__ == "__main__":
-    bot = Chatbot(kb=KB, threshold=0.45)
+    bot = Chatbot(kb=KB, threshold=0.2)
     bot.fit()
 
     print("\nChatbot ready! Type 'exit' to quit.\n")
@@ -90,7 +90,7 @@ if __name__ == "__main__":
         print(f"Bot: {response}")
 
         # Show top matches 
-        print("  Top matches:")
+        print("\n  Top matches:")
         for txt, score in matches:
             print(f"     - '{txt}'  -> {score:.3f}")
         print()
