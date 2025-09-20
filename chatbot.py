@@ -4,7 +4,7 @@ chatbot.py
 A minimal chatbot that:
  - Uses Sentence-BERT embeddings
  - computes cosine similarity
- - get the closest response from a knowledge base 
+ - gets the closest response from a knowledge base 
 
 """
 
