@@ -17,7 +17,7 @@ You can try out the bot here: [aqmer-chatbot.streamlit.app](https://aqmer-chatbo
 
 ## Demo
 <div align="center">
-<br><i>**GUI**</i>
+<i>GUI</i>
 <img src="https://github.com/aqmeraamir/NLP/blob/main/images/gui_demo.png" width=890 height=750></img>
 </br>
 </div>
@@ -25,9 +25,8 @@ You can try out the bot here: [aqmer-chatbot.streamlit.app](https://aqmer-chatbo
 ---
 
 <div align="center">
-<br><i>**CLI**</i>
+<i>CLI</i>
 <img src="https://github.com/aqmeraamir/NLP/blob/main/images/cli_demo.png" width=890 height=600></img>
-</br>
 </div>
 
 
