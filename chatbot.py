@@ -90,7 +90,7 @@ if __name__ == "__main__":
         print(f"Bot: {response}")
 
         # Show top matches 
-        print("  Top matches (cosine similarity):")
+        print("  Top matches:")
         for txt, score in matches:
             print(f"     - '{txt}'  -> {score:.3f}")
         print()

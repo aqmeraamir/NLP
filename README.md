@@ -38,6 +38,7 @@ You can try out the bot here:
 
 ## Demo
 
+![Demo](https://github.com/aqmeraamir/NLP/images/demo.png)
 
 ## License
 MIT — feel free to use or modify this for your own projects
