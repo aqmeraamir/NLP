@@ -15,8 +15,13 @@ You can try out the bot here:
 
 ---
 
-## Local Setup
+## Demo
+<div align="center">
+<img src="https://github.com/aqmeraamir/NLP/blob/main/images/demo.png" width=890 height=600></img>
+</div>
 
+
+## Local Setup
 
 1. Clone the repo:
    ```bash
@@ -36,10 +41,7 @@ You can try out the bot here:
     ``` python chatbot.py ``` (for CLI)
 
 
-## Demo
-<div align="center">
-<img src="https://github.com/aqmeraamir/NLP/blob/main/images/demo.png" width=890 height=600></img>>
-</div>
+
 
 
 ## License
