@@ -2,7 +2,7 @@ import streamlit as st
 from chatbot import Chatbot, KB
 
 # initialize bot
-bot = Chatbot(kb=KB, threshold=0.2)
+bot = Chatbot(kb=KB)
 bot.fit()
 
 st.title("Aqmer Chatbot")

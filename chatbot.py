@@ -11,6 +11,7 @@ A minimal chatbot that:
 import numpy as np
 from sentence_transformers import SentenceTransformer
 
+THRESHOLD = 0.3
 
 # ----------------------------------------------------------------------
 # knowledge base (user prompt: response)
@@ -29,7 +30,7 @@ KB = [
 # chatbot
 # ----------------------------------------------------------------------
 class Chatbot:
-    def __init__(self, kb, threshold=0.2):
+    def __init__(self, kb, threshold=THRESHOLD):
         self.kb = kb
         self.threshold = threshold
         self.model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -76,7 +77,7 @@ class Chatbot:
 # main program
 # ----------------------------------------------------------------------
 if __name__ == "__main__":
-    bot = Chatbot(kb=KB, threshold=0.2)
+    bot = Chatbot(kb=KB)
     bot.fit()
 
     print("\nChatbot ready! Type 'exit' to quit.\n")
