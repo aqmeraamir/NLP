@@ -37,8 +37,10 @@ You can try out the bot here:
 
 
 ## Demo
+<div align="center">
+<img src="https://github.com/aqmeraamir/NLP/blob/main/images/demo.png" width=890 height=600></img>>
+</div>
 
-![Demo](https://github.com/aqmeraamir/NLP/images/demo.png)
 
 ## License
 MIT — feel free to use or modify this for your own projects
